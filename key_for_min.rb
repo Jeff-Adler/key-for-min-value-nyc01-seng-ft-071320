@@ -3,9 +3,12 @@
 
 def key_for_min_value(name_hash)
   temp_min_price = nil
+  temp_min_key = nil
   name_hash.each do |item,price|
       if temp_min_price == nil || price < temp_min_price
         temp_min_price = price
+        temp_min_key = item
       end
   end
+
 end
