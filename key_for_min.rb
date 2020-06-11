@@ -10,5 +10,5 @@ def key_for_min_value(name_hash)
         temp_min_key = item
       end
   end
-
+  temp_min_key
 end
